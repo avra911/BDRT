@@ -128,7 +128,7 @@ It **reprices vertically** - suddenly, violently and with very little warning.
 This means:
 - The early "adoption-driven exponential growth" phase has mostly played out.
 - The next era is defined by **scarcity shocks**, not speculative exuberance.
-- Peaks may become **sharper, faster, and less frequent**.
+- Peaks may become **sharper, faster and less frequent**.
 
 If more long-horizon holders ("fighters of the light," so to speak) accumulate and consistently refuse to sell, the available supply becomes even thinner.  
 In such an environment, **small increases in demand can trigger outsized price moves**.
