@@ -116,6 +116,34 @@ Market structure can change, and past behavior does not guarantee future outcome
 
 ---
 
+## IMPORTANT: The Role of Illiquid Supply
+
+If Satoshi’s ~1M BTC represents *dead supply* (coins that will never return to market) and if institutional accumulators like Michael Saylor continue locking up *illiquid supply* (coins that are removed from trading circulation), then the structure of Bitcoin price cycles is no longer defined solely by diminishing returns.
+
+Instead, the dominant force becomes **supply compression**.
+
+When the free-float supply decreases, price does not rise slowly in a smooth curve.
+It **reprices vertically** - suddenly, violently and with very little warning.
+
+This means:
+- The early "adoption-driven exponential growth" phase has mostly played out.
+- The next era is defined by **scarcity shocks**, not speculative exuberance.
+- Peaks may become **sharper, faster, and less frequent**.
+
+If more long-horizon holders ("fighters of the light," so to speak) accumulate and consistently refuse to sell, the available supply becomes even thinner.  
+In such an environment, **small increases in demand can trigger outsized price moves**.
+
+This does *not* invalidate diminishing returns - it **evolves the model**:
+
+**Diminishing Returns (cycle 2 → 3 → 4)
+→ Supply Compression (cycle 5 → 6 → 7+)**
+
+In other words:
+- The growth engine of Bitcoin shifts
+- From *risk premium* to *scarcity premium*.
+
+---
+
 ## Contact
 
 If you extend or experiment with the model, I’d be happy to see your results.  
