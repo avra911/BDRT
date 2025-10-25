@@ -26,7 +26,7 @@ DEFAULT_START_PRICE = 126_200
 DEFAULT_START_DATE = "2025-10-19"
 
 
-def fit_diminishing_returns(method: str = "include_all", floor: float = 1e-4) -> Tuple[np.ndarray, np.ndarray]:
+def fit_diminishing_returns(method: str = "exclude_first", floor: float = 1e-4) -> Tuple[np.ndarray, np.ndarray]:
     """
     Fit a log-linear model on historical 4-year monthly averages and extrapolate
     monthly 4-year averages (r_avg_4y) for future cycles (cycles 5..11).
@@ -265,7 +265,7 @@ def summarize_cycles(df: pd.DataFrame) -> pd.DataFrame:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Diminishing-cycle Bitcoin projection (4y cycles).")
-    parser.add_argument("--method", choices=["exclude_first", "include_all", "weighted"], default="include_all")
+    parser.add_argument("--method", choices=["exclude_first", "include_all", "weighted"], default="exclude_first")
     parser.add_argument("--floor", type=float, default=1e-4, help="Minimum monthly average (decimal)")
     parser.add_argument("--start-price", type=float, default=DEFAULT_START_PRICE)
     parser.add_argument("--start-date", type=str, default=DEFAULT_START_DATE)
